@@ -1,0 +1,24 @@
+{
+  "name": "4-dom-pig-game",
+  "version": "1.0.0",
+  "description": "GAME RULES:",
+  "main": "app.js",
+  "scripts": {
+    "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argenis0409/pig-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/argenis0409/pig-game/issues"
+  },
+  "homepage": "https://github.com/argenis0409/pig-game#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-static": "^0.7.11"
+  }
+}
