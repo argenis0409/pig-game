@@ -4,8 +4,7 @@
   "description": "GAME RULES:",
   "main": "app.js",
   "scripts": {
-    "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
-    "test": "mocha --exit"
+    "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\""
   },
   "repository": {
     "type": "git",
