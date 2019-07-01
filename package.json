@@ -4,7 +4,7 @@
   "description": "GAME RULES:",
   "main": "app.js",
   "scripts": {
-    "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/argenis0409/pig-game#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "node-static": "^0.7.11"
+    "express": "^4.17.1"
   }
 }
